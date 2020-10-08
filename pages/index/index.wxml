@@ -1,0 +1,13 @@
+<!--index.wxml-->
+
+<view class="index_cate">
+  <navigator url="/pages/course/index">
+  <image mode="widthFix" src="../../icons/gift.png"></image>IES - GPA</navigator>
+
+  <navigator url="/pages/doing/index">
+  <image mode="widthFix" src="../../icons/lock.png"></image>待开发</navigator>
+
+  <!-- <navigator url="/pages/car/index">
+  <image mode="widthFix" src="../../icons/car.png"></image>接机</navigator> -->
+  <navigator></navigator>
+</view>

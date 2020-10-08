@@ -1,0 +1,6 @@
+<!--pages/takeaway/index.wxml-->
+<view class="wechat_style" wx:for="{{wechat}}" wx:key="wx_id" wx:for-index="index1" wx:for-item="item1" 
+url="/pages/part/index?wid={{item1.wx_id}}">
+  <view class="wechat_name">{{item1.wx_name}}</view>
+  <view class="wechat_id">微信号：{{item1.wx_id}}</view>
+</view>

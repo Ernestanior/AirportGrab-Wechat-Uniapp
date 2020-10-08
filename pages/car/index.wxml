@@ -1,0 +1,8 @@
+<!--pages/car/index.wxml-->
+<view class="bg">
+<image src="https://s1.ax1x.com/2020/10/08/0w32kD.png" class="fly"></image>
+<image src="../../image/cloud.png" class="cloud_1"></image>
+<image src="../../image/cloud.png" class="cloud_2"></image>
+<image src="../../image/cloud.png" class="cloud_3"></image>
+<text>澳洲接机</text>
+</view>

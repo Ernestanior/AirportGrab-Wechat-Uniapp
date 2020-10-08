@@ -1,0 +1,33 @@
+.bg{
+  height: 700rpx;
+  width: 100%;
+  background-color: skyblue;
+  position: relative;
+  
+}
+.fly{
+  margin-top: 50rpx;
+  height: 400rpx;
+}
+.cloud_1{
+  height: 450rpx;
+  width: 500rpx;
+  position: absolute;
+  bottom: -100rpx;
+  left: -200rpx;
+}
+.cloud_2{
+  position: absolute;
+  top: -80rpx;
+  right: 50rpx;
+  height: 250rpx;
+  width: 250rpx;
+}
+.cloud_3{
+  height: 350rpx;
+  width: 350rpx;
+  position: absolute;
+  bottom: -80rpx;
+  right: -100rpx;
+
+}

@@ -1,0 +1,66 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/login/index",
+    "pages/doing/index",
+    "pages/user/index",
+    "pages/part/index",
+    "pages/takeaway/index",
+    "pages/cake/index",
+    "pages/fruit/index",
+    "pages/alcohol/index",
+    "pages/seafood/index",
+    "pages/move_house/index",
+    "pages/car/index",
+    "pages/course/index",
+    "pages/course/ma/index",
+    "pages/course/ae/index",
+    "pages/course/ac/index",
+    "pages/course/bs/index",
+    "pages/course/bm/index",
+    "pages/course/ec/index",
+    "pages/course/bl/index",
+    "pages/course/it/index",
+    "pages/course/ph/index",
+    "pages/course/ch/index",
+    "pages/course/re/index",
+    "pages/unlock/index",
+    "pages/photography/index",
+    "pages/event/index",
+    "pages/flower/index",
+    "pages/dance/index",
+    "pages/transport/index",
+    "pages/daigou/index",
+    "pages/nails/index",
+    "pages/gpa/index",
+    "pages/music/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#6B238E",
+    "navigationBarTitleText": "炸油条",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#ff2d4a",
+    "backgroundColor": "#fafafa",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "icons/home.png",
+        "selectedIconPath": "icons/home-fill.png"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "text": "我的",
+        "iconPath": "icons/account.png",
+        "selectedIconPath": "icons/account-fill.png"
+      }]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

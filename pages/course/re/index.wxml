@@ -1,0 +1,60 @@
+<view class="container_1">
+  <view class="name_2"><text class="text_1">GPA :</text></view>
+
+  <view class="enter_2">
+    <view class="gpa_name">期望GPA</view>
+      <input class="input_box" bindinput="gpa_1"></input>
+  </view>  
+
+  <view class="enter_2">
+    <view class="gpa_name">总GPA</view>
+    <view class="fix_num">7</view>
+  </view>
+</view>
+
+<view class="grade_name">你的分数</view>
+
+<view class="container_1">
+  <view class="name_1">T1 Assignment (10%)</view>
+
+  <view class="enter_3">   
+      <input class="input_box" bindinput="score_1"></input>%
+  </view>
+</view>
+
+<view class="container_1">
+  <view class="name_1">T2 Reflections (20%)</view>
+  <view class="enter_3">   
+      <input class="input_box" bindinput="score_2"></input>%
+  </view>
+</view>
+
+<view class="container_1">
+  <view class="name_1">T3 Plan (15%)</view>
+
+  <view class="enter_3">   
+      <input class="input_box" bindinput="score_3"></input>%
+  </view>
+</view>
+
+<view class="container_1">
+  <view class="name_1">T3 Portfolio (15%)</view>
+
+  <view class="enter_3">   
+      <input class="input_box" bindinput="score_4"></input>%
+  </view>
+</view>
+
+<button class="calc" bindtap="calc_result">计算</button>
+
+<view class="container_2">
+  <view class="final_score">你至少要拿到：</view> 
+  <view class="final_score_exam">
+    <text class="text_2">T4 Exam 2 (40%) </text>
+    <input class="input_box" value="{{x}}" ></input>% 
+  </view>
+</view>
+
+<view class="hint">* 结果为0或负数，代表考0分都能pass</view>
+
+

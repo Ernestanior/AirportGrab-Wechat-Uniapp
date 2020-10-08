@@ -1,0 +1,16 @@
+/* pages/takeaway/index.wxss */
+.wechat_style{
+  padding: 20rpx;
+  justify-content: space-around;
+  border-bottom: 1px solid #ccc;
+  
+}
+.wechat_id{
+  color: #666;
+  font-size: 35rpx;
+}
+
+.wechat_name{
+  font-size: 42rpx;
+  color: #97694F;
+}

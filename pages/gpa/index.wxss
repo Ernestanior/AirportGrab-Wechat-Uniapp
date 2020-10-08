@@ -1,0 +1,79 @@
+
+.container_1{
+  display: flex;
+  padding-top: 20rpx;
+  flex:2;
+}
+.container_2{
+  display: flex;
+  padding-top: 70rpx;
+  flex-direction: column;
+}
+.fix_num{
+  padding-left: 10rpx;
+}
+.name_2{
+  display: flex;
+  flex:1;
+  justify-content:center;
+}
+.name_1{
+  display: flex;
+  flex:4;
+  justify-content:center;
+}
+.text_1{
+  margin-top: 30%;
+}
+.text_2{
+  margin-right: 8%;
+}
+.final_score{
+  display: flex;
+  justify-content:center;
+  font-family: KaiTi;
+  margin-bottom: 2%;
+}
+.enter_2{
+  display: flex;
+  flex-direction: column;
+  flex:2;
+  padding-left: 50rpx;
+  justify-content:center;
+}
+.enter_3{
+  display: flex;
+  flex-direction: column;
+  flex:2;
+  justify-content:center;
+  margin-bottom: 1%;
+}
+.input_box{
+  width:100rpx;
+  border: 2rpx solid;
+  border-radius: 8rpx;
+}
+.percent{
+  display: flex;
+}
+.in_percent{
+  padding-left: 5rpx;
+}
+.grade_name{
+  margin-top: 8%;
+  margin-left: 65%;
+  display: flex;
+  padding-left: 5rpx;
+  padding-bottom: 10rpx;
+  font-family: KaiTi;
+}
+.gpa_name{
+  display: flex;
+  padding-right: 20rpx;
+  padding-bottom: 10rpx;
+  font-family: KaiTi;
+}
+.final_score_exam{
+  display: flex;
+  margin-left: 25%;
+}

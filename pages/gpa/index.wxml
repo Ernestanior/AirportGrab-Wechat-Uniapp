@@ -1,0 +1,50 @@
+<!--pages/gpa/index.wxml-->
+<view class="container_1">
+  <view class="name_2"><text class="text_1">GPA :</text></view>
+
+  <view class="enter_2">
+    <view class="gpa_name">期望GPA</view>
+      <input class="input_box" bindinput="input_1"></input>
+  </view>  
+
+  <view class="enter_3">
+    <view class="gpa_name">总GPA</view>
+    <view class="fix_num">7</view>
+  </view>
+</view>
+
+<view class="grade_name">你的分数</view>
+
+<view class="container_1">
+  <view class="name_1">Assignment One(30%)</view>
+
+  <view class="enter_3">   
+      <input class="input_box" bindinput="input_1"></input>
+  </view>
+</view>
+
+<view class="container_1">
+  <view class="name_1">Assignment Two(30%)</view>
+
+  <view class="enter_3">   
+      <input class="input_box" bindinput="input_1"></input>
+  </view>
+</view>
+
+<view class="container_1">
+  <view class="name_1">Assignment Three(30%)</view>
+
+  <view class="enter_3">   
+      <input class="input_box" bindinput="input_1"></input>
+  </view>
+</view>
+
+<view class="container_2">
+  <view class="final_score">你至少要拿到：</view> 
+  <view class="final_score_exam">
+    <text class="text_2">Exam </text>
+    <input class="input_box" bindinput="input_1" ></input>
+  </view>
+  
+
+</view>
