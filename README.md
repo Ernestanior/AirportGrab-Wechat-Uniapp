@@ -1,21 +1,21 @@
-# AirportGrab
+# AirportGrab (Vue)
 
-## Project build by Vue and Nodejs
 
-## Project setup
-```
-npm install
-```
+## Project Introduce
 
-### Compiles and hot-reloads for frontend
-```
-npm run serve
-```
+An application for customers to pick up from Airport or drop off at Airport. 
+Using wechat uniapp to build.
 
-### Compiles and hot-reloads for backend
-```
-node app.js
-```
+## Directory Structure
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- frontend - build by Uniapp with CSS, JS, HTML
+
+
+## Project Image
+<img src="https://github.com/Ernestanior/AirportGrab/blob/master/frontend/screenshot/CN/1.jpg" width="320px">
+<img src="https://github.com/Ernestanior/AirportGrab/blob/master/frontend/screenshot/CN/2.jpg" width="320px">
+<img src="https://github.com/Ernestanior/AirportGrab/blob/master/frontend/screenshot/CN/3.jpg" width="320px">
+<img src="https://github.com/Ernestanior/AirportGrab/blob/master/frontend/screenshot/CN/4.jpg" width="320px">
+<img src="https://github.com/Ernestanior/AirportGrab/blob/master/frontend/screenshot/CN/5.jpg" width="320px">
+<img src="https://github.com/Ernestanior/AirportGrab/blob/master/frontend/screenshot/CN/6.jpg" width="320px">
+<img src="https://github.com/Ernestanior/AirportGrab/blob/master/frontend/screenshot/CN/7.jpg" width="320px">
