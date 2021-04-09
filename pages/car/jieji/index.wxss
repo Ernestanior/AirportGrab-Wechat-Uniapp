@@ -1,0 +1,129 @@
+
+.bg{
+  height: 1800rpx;
+  background-color: #effaff;
+  position: fixed;
+}
+.box_1{
+  height: 300rpx;
+  width: 100vw;
+  background: linear-gradient(180deg,#1653c4, #83abfc );
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  position: relative;
+}
+.title{
+  position: absolute;
+  top: 40rpx;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 50rpx;
+  font-weight: 500;
+  
+}
+.form{
+  position: relative;
+  top: -280rpx;
+  left:50%;
+  transform: translateX(-50%);
+  border-radius: 10rpx;
+  box-shadow: 0 0 10rpx rgb(230, 230, 230);
+  background-color: white;
+  height: 1150rpx;
+  width: 80vw;
+}
+.form_title{
+  height: 8vh;
+  width: 100%;
+  display: flex;
+  transition: 5s all;
+}
+.jieji,.songji{
+  flex: 1;
+  text-align: center;
+  line-height: 8vh;
+  font-size: 35rpx;
+  color: white;
+  background-color: #1653c4;
+}
+.jieji{
+  border-top-left-radius: 10rpx;
+}
+.songji{
+  border-top-right-radius: 10rpx;
+}
+.active{
+  font-weight: 500;
+  background-color: #fff;
+  color: #000;
+  height: 11vh;
+}
+.form_content{
+  padding: 10rpx 50rpx;
+}
+.swiper-box {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+  font-family: "苹方-简 常规体";
+  height: 100%;
+}
+.jichang,.destination,.date,.time,.people_number,.luggage,.contact,.add{
+  display: flex;
+  border-bottom: 1px solid rgb(207, 207, 207);
+  height: 110rpx;
+}
+.jichang_title,.destination_title,.date_title,.time_title,.people_number_title,.luggage_title,.contact_title,.add_title{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form_content input,picker{
+  flex: 2;
+  color: rgb(128,128,144);
+  border-bottom: 0;
+  display: flex;
+  align-items: center;
+}
+.submit{
+  margin-top: 20rpx;
+  height: 74rpx;
+  width: 100rpx;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1653c4;
+  position: relative;
+  top: 20rpx;
+  box-shadow: 0 0 10rpx #679afa;
+}
+.footer{
+  position: relative;
+  top: -250rpx;
+  color: #a8a7a7;
+  font-size: 25rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer image{
+  height: 30rpx;
+  width: 30rpx;
+  margin-right: 10rpx;
+}
+.picker{
+  position: relative;
+  width: 300rpx;
+}
+.icon_youla{
+  position: absolute;
+  top: 50%;
+  right: -40rpx;
+  transform: translateY(-50%) rotate(-90deg);
+  height: 50rpx;
+  width: 50rpx;
+}

@@ -1,0 +1,127 @@
+.theme_blue{
+  color: #1653c4
+}
+.bg{
+  height: 1800rpx;
+  background-color: #e2f6ff;
+  position: fixed;
+}
+.box_1{
+  height:100rpx;
+  width: 100vw;
+  background: linear-gradient(180deg,#1653c4, #5183e9 );
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box_1>view{
+  color: white;
+  font-weight: 500;
+  font-size: 35rpx;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box_1>view>view{
+  padding: 5rpx 0;
+}
+.order_container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.order_content{
+  width: 100vw;
+  background-color: #fff;
+  margin-top: 20rpx;
+  position: relative;
+  padding: 20rpx 0 20rpx 30rpx;
+  box-shadow: 0 0 10rpx rgb(210, 221, 253);
+  color: #666;
+  overflow: hidden;
+}
+.order_type{
+  font-size: 35rpx;
+  color: #666;
+  margin-bottom: 15rpx;
+}
+.order_status{
+  font-size: 26rpx;
+  position: absolute;
+  top: 20rpx;
+  right:90rpx;
+}
+.icon_youla{
+  position: absolute;
+  top: 50%;
+  right: -40rpx;
+  transform: translateY(-50%) rotate(-90deg);
+  height: 40rpx;
+  width: 40rpx;
+}
+.text_empty{
+  position: absolute;
+  top: 32%;
+  left:40%;
+  /* color:rgb(191,191,191); */
+  color:#6ea5e9;
+  font-size: 45rpx;
+  
+}
+.icon_empty{
+  position: absolute;
+  top: 20%;
+  left:35%;
+  height: 200rpx;
+  width: 260rpx;
+}
+
+.date_time{
+  font-size: 25rpx;
+  margin-bottom: 5rpx;
+  display: flex;
+  align-items: center;
+}
+.icon_clock{
+  height: 25rpx;
+  width: 25rpx;
+  margin-right: 10rpx;
+}
+.order_from,.order_to{
+  font-size: 25rpx;
+  margin-bottom: 5rpx;
+  width: 80vw;
+  display: flex;
+  align-items: center;
+  margin-left: 35rpx;
+  position: relative;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.order_price{
+  font-size: 30rpx;
+  position: absolute;
+  top: 65rpx;
+  right:60rpx;
+  color:rgb(68, 182, 102);
+}
+.dot{
+  height: 15rpx;
+  width: 15rpx;
+  position: absolute;
+  left: 35rpx;
+  transform: translateY(-50%);
+}
+.dot_one{
+top: 64%;
+}
+.dot_two{
+  top: 82%;
+}
+.active{
+  border-bottom: 4rpx solid #fff;
+}

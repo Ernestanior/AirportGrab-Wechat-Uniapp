@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "Tab_one":"../../../components/tabbar_one/tabbar_one"
+  },
+      "navigationBarTitleText": "我的主页",
+      "navigationBarBackgroundColor": "#1653c4",
+      "enablePullDownRefresh": true
+}

@@ -1,0 +1,54 @@
+<view class="box">
+  <view class="title">
+    <image src="../../../icons/version_2/jieji/service_2.png"></image>
+    <text>微信支付</text>
+  </view>
+  <view class="content">
+    平台支持微信支付，无需款汇转账成澳币，安全快捷。
+  </view>
+</view>
+
+<view class="box">
+  <view class="title">
+    <image src="../../../icons/version_2/jieji/service_2.png"></image>
+    <text>华人司机</text>
+  </view>
+  <view class="content">
+    中国留学生司机团队，大多为在布里斯班留学的学生接单送客。
+  </view>
+  <view class="content">
+    确保司机服务质量，确保交流沟通顺畅，确保最低的风险率，确保客户的人身财产安全。
+  </view>
+</view>
+
+<view class="box">
+  <view class="title">
+    <image src="../../../icons/version_2/jieji/service_2.png"></image>
+    <text>一价全包</text>
+  </view>
+  <view class="content">
+    接送收费价格基于时间段，路程和人数进行计算，不包含其他额外费用。
+  </view>
+  <view class="content">
+    例如，无额外行李费用，无额外用餐饮水费用，无额外服务消费等等。
+  </view>
+</view>
+
+<view class="box">
+  <view class="title">
+    <image src="../../../icons/version_2/jieji/service_2.png"></image>
+    <text>服务保障</text>
+  </view>
+  <view class="content">
+    客服24小时在线提供服务。
+  </view>
+  <view class="content">
+    保证乘客安全，司机不允许提供乘客饮用水及食物，如有发生，请及时举报。
+  </view>
+  <view class="content">
+    为了乘客人身安全，不允许乘客饮用或食用他人的水或食物。
+  </view>
+  <view class="content">
+    接送前6小时或因意外无法出行，可以取消订单，小布为客人办理全额退款。
+  </view>
+</view>

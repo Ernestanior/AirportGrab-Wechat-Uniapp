@@ -1,0 +1,154 @@
+<view class="bg">
+  <view class="box_1">
+    
+  </view>
+  <view class="form">
+    <view class="form_title">
+      <view class="jieji {{currentTab==0 ? 'active' : ''}}" data-current="0" bindtap="swichNav">接机</view>
+      <view class="songji {{currentTab==1 ? 'active' : ''}}" data-current="1" bindtap="swichNav">送机</view>
+    </view>
+    <swiper current="{{currentTab}}" class="swiper-box" duration="300" bindchange="bindTabChange">
+      <swiper-item class="swiper-item">
+        <view class="form_content">
+          <form bindsubmit="formSubmit">
+            <view class="jichang">
+              <view class="jichang_title">出发机场</view>
+                <picker name="departure" bindchange="bindAirportChange" value="{{form_one.departure}}" range="{{airport_array}}">
+                  <view class="picker">
+                    {{form_one.departure}}
+                    <image class="icon_youla" src="../../../icons/version_2/jieji/youla.png"></image>
+                  </view>
+                </picker>
+            </view>
+            <view class="destination">
+              <view class="destination_title">目的地址</view>
+              <input name="destination" placeholder="目的地" value='{{form_one.destination}}' class="destination"></input>
+            </view>
+            <view class="date">
+              <view class="date_title">日期</view>
+                <picker name="date" mode="date" value="{{form_one.date}}" start="2020-12-21" bindchange="bindDateChange">
+                  <view class="picker">
+                  {{form_one.date}}
+                  <image class="icon_youla" src="../../../icons/version_2/jieji/youla.png"></image>
+                  </view>
+                </picker>
+            </view>
+            <view class="time">
+              <view class="time_title">时间</view>
+                <picker name="time" mode="time" value="{{form_one.time}}" bindchange="bindTimeChange">
+                  <view class="picker">
+                    {{form_one.time}}
+                    <image class="icon_youla" src="../../../icons/version_2/jieji/youla.png"></image>
+                  </view>
+                </picker>
+            </view>
+            <view class="people_number">
+              <view class="people_number_title">人数</view>
+                <picker name="people_number" bindchange="bindPeopleChange" value="{{form_one.people_number}}" range="{{people_array}}">
+                  <view class="picker">
+                    {{form_one.people_number}}
+                    <image class="icon_youla" src="../../../icons/version_2/jieji/youla.png"></image>
+                  </view>
+                </picker>
+            </view>
+            <view class="luggage">
+              <view class="luggage_title">行李数</view>
+                <picker name="luggage" bindchange="bindLuggageChange" value="{{form_one.luggage}}" range="{{luggage_array}}">
+                  <view class="picker">
+                    {{form_one.luggage}}
+                    <image class="icon_youla" src="../../../icons/version_2/jieji/youla.png"></image>
+                  </view>
+                </picker>
+            </view>
+            <view class="contact">
+              <view class="contact_title">联系方式</view>
+              <input name="contact" placeholder="手机号码" value='{{form_one.contact}}' class="contact"></input>
+            </view>
+            <view class="add">
+              <view class="add_title">留言</view>
+              <input name="add" placeholder="给司机的留言(可选)" value='{{form_one.add}}' class="add"></input>
+            </view>
+
+            <button  class="submit" form-type="submit">提交订单</button>
+          </form>
+        </view>
+      </swiper-item>
+      <swiper-item class="swiper-item">
+          <view class="form_content">
+            <form bindsubmit="formSubmit">
+              <view class="destination">
+                <view class="destination_title">出发地址</view>
+                <input name="departure" placeholder="出发地" value='{{form_two.departure}}' class="destination"></input>
+              </view>
+              <view class="jichang">
+                <view class="jichang_title">目的机场</view>
+                  <picker name="destination" bindchange="bindAirportChange" value="{{form_two.destination}}" range="{{airport_array}}">
+                    <view class="picker">
+                      {{form_two.destination}}
+                      <image class="icon_youla" src="../../../icons/version_2/jieji/youla.png"></image>
+                    </view>
+                  </picker>
+              </view>
+            <view class="date">
+              <view class="date_title">日期</view>
+                <picker name="date" mode="date" value="{{form_two.date}}" start="2020-12-21" bindchange="bindDateChange">
+                  <view class="picker">
+                  {{form_two.date}}
+                  <image class="icon_youla" src="../../../icons/version_2/jieji/youla.png"></image>
+                  </view>
+                </picker>
+            </view>
+            <view class="time">
+              <view class="time_title">时间</view>
+                <picker name="time" mode="time" value="{{form_two.time}}" bindchange="bindTimeChange">
+                  <view class="picker">
+                    {{form_two.time}}
+                    <image class="icon_youla" src="../../../icons/version_2/jieji/youla.png"></image>
+                  </view>
+                </picker>
+            </view>
+            <view class="people_number">
+              <view class="people_number_title">人数</view>
+                <picker name="people_number" bindchange="bindPeopleChange" value="{{form_two.people_number}}" range="{{people_array}}">
+                  <view class="picker">
+                    {{form_two.people_number}}
+                    <image class="icon_youla" src="../../../icons/version_2/jieji/youla.png"></image>
+                  </view>
+                </picker>
+            </view>
+            <view class="luggage">
+              <view class="luggage_title">行李数</view>
+                <picker name="luggage" bindchange="bindLuggageChange" value="{{form_two.luggage}}" range="{{luggage_array}}">
+                  <view class="picker">
+                    {{form_two.luggage}}
+                    <image class="icon_youla" src="../../../icons/version_2/jieji/youla.png"></image>
+                  </view>
+                </picker>
+            </view>
+              <view class="contact">
+                <view class="contact_title">联系方式</view>
+                <input name="contact" placeholder="手机号码" value='{{form_two.contact}}' class="contact"></input>
+              </view>
+              <view class="add">
+                <view class="add_title">留言</view>
+                <input name="add" placeholder="给司机的留言(可选)" value='{{form_two.add}}' class="add"></input>
+              </view>
+
+              <button class="submit" form-type="submit">提交订单</button>
+            </form>
+          </view>
+      </swiper-item>
+    </swiper>
+
+  </view>
+  <view class="footer">
+    <image src="../../../icons/version_2/jieji/tick.png"></image>
+      小布用车 -- 更方便，更优惠
+  </view>
+</view>
+
+
+
+
+
+

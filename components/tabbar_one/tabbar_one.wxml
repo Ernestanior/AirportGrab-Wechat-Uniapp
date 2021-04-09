@@ -1,0 +1,49 @@
+<!--components/custom_tabbar/tabbar_one.wxml-->
+  <view class="tabbar">
+    <view wx:for="{{tabs}}" wx:key="id">
+      <button open-type="{{item.open_type}}" bindtap="{{item.bindtap}}">
+        <view wx:if="{{!item.isActive}}">
+          <image src="{{item.img}}"></image>
+        </view>
+        <view wx:else>
+          <image src="{{item.act_img}}"></image>
+        </view>
+        <view class="{{item.isActive?'active':''}}">
+          <text>{{item.name}}</text>
+        </view>
+      </button>
+    </view>
+  </view>
+<!-- <view class="tabbar">
+    <button bindtap="goto_index">
+      <view wx:if="{{isAcitve}}">
+      <image src="../../icons/version_2/tabbar/home.png"></image>
+    </view>
+    <view wx:else>
+      <image src="../../icons/version_2/tabbar/home_fill.png"></image>
+    </view>
+      <text>首页</text>
+    </button>
+    <button bindtap="goto_order">
+      <view wx:if="{{isAcitve}}">
+      <image src="../../icons/version_2/tabbar/order.png"></image>
+    </view>
+    <view wx:else>
+      <image src="../../icons/version_2/tabbar/order_fill.png"></image>
+    </view>
+      <text>订单</text>
+    </button>
+    <button open-type='contact'>
+      <image src="../../icons/version_2/tabbar/contact.png"></image>
+      <text>客服</text>
+    </button>
+    <button bindtap="goto_mine">
+      <view wx:if="{{isAcitve}}">
+      <image src="../../icons/version_2/tabbar/mine.png"></image>
+    </view>
+    <view wx:else>
+      <image src="../../icons/version_2/tabbar/mine_fill.png"></image>
+    </view>
+      <text>我的</text>
+    </button>
+  </view> -->

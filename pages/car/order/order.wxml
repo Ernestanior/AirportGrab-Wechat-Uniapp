@@ -1,0 +1,117 @@
+
+<view class="bg">
+  <!-- <view class="box_1">
+    <view>待出发</view>
+    <view>历史订单</view>
+  </view>
+
+  <view class="order_container">
+
+    <view class="order_content">
+      <view class="order_content_title">
+        <view class="order_date">预定日期 2020-11-24</view>
+        <view class="order_type">接机</view>
+        <view class="order_status">待出发</view>
+      </view>
+      <view class="order_detail">
+        <view class="order_address">
+          BNE Domestic Airport -> 昆士兰大学
+        </view>
+        <view class="date_time">
+          2021-11-24 14:20
+        </view>
+        <view class="order_price">
+          总价: 40澳元
+        </view>
+      </view>
+      <button style="width:22vw" class="cancel">取消订单</button>
+    </view>
+
+    <view class="order_content">
+      <view class="order_content_title">
+        <view class="order_date">预定日期 2077-02-14</view>
+        <view class="order_type">送机</view>
+        <view class="order_status">待出发</view>
+      </view>
+      <view class="order_detail">
+        <view class="order_address">
+          Unilodge Park Central -> BNE International Airport
+        </view>
+        <view class="date_time">
+          2077-03-24 14:20
+        </view>
+        <view class="order_price">
+          总价: 40澳元
+        </view>
+      </view>
+      <button style="width:22vw" class="cancel">取消订单</button>
+    </view>
+
+  </view> -->
+  <!-- <Tab_two titles="{{titles}}" order_content="{{order_content}}" binditemChange="handleItemChange"> -->
+  <Tab_two titles="{{titles}}" binditemChange="handleItemChange">
+  <block wx:if="{{titles[0].isActive}}">  
+    <view wx:if="{{!order_content[0]}}">
+      <image class="icon_empty" src="../../../icons/version_2/jieji/empty_3.png"></image>
+      <view class="text_empty">暂无订单</view>
+    </view>
+    <view wx:else>
+      <navigator class="order_content" wx:for="{{order_content}}" wx:key="order_id" 
+        url="/pages/car/order_detail/index?order_id={{item.order_id}}">
+        <view class="order_type">{{item.type}}</view>
+        <view class="order_status">
+          {{item.status}}
+          <image class="icon_youla" src="../../../icons/version_2/jieji/youla.png"></image>
+        </view> 
+        <view class="date_time">
+          <image class="icon_clock" src="../../../icons/version_2/jieji/clock.png"></image>
+          {{item.time}}
+        </view>
+        <image class="dot dot_one" src="../../../icons/version_2/jieji/dot_two.png"></image>
+        <view class="order_from">
+          {{item.add_from}}
+        </view>
+        <image class="dot dot_two" src="../../../icons/version_2/jieji/dot_one.png"></image>
+        <view class="order_to">
+          {{item.add_to}}
+        </view>
+        <view class="order_price">
+          AU${{item.price}}
+        </view>
+      </navigator>
+    </view>
+  </block>
+
+  <block wx:elif="{{titles[1].isActive}}">
+    <view wx:if="{{!order_history[0]}}">
+      <image class="icon_empty" src="../../../icons/version_2/jieji/empty_3.png"></image>
+      <view class="text_empty">暂无订单</view>
+    </view>
+    <view wx:else>
+      <view class="order_content" wx:for="{{order_history}}" wx:key="order_id">
+        <view class="order_type">{{item.type}}</view>
+          <view class="order_status">
+            {{item.status}}
+            <image class="icon_youla" src="../../../icons/version_2/jieji/youla.png"></image>
+          </view>
+          <view class="date_time">
+            <image class="icon_clock" src="../../../icons/version_2/jieji/clock.png"></image>
+            {{item.time}}
+          </view>
+          <image class="dot dot_one" src="../../../icons/version_2/jieji/dot_two.png"></image>
+          <view class="order_from">
+            {{item.add_from}}
+          </view>
+          <image class="dot dot_two" src="../../../icons/version_2/jieji/dot_one.png"></image>
+          <view class="order_to">
+            {{item.add_to}}
+          </view>
+          <view class="order_price">
+            AU${{item.price}}
+          </view>
+      </view>
+    </view>
+  </block>
+  </Tab_two>
+  <Tab_one tid="1"></Tab_one>
+</view>

@@ -2,46 +2,46 @@
 
 <view class="index_cate">
   <navigator url="/pages/takeaway/index">
-  <image mode="widthFix" src="../../icons/delivery.png"></image>
+  <image mode="widthFix" src="../../icons/version_1/delivery.png"></image>
   <view class="index_text">外卖</view>
   </navigator>
   <navigator url="/pages/course/index">
-  <image mode="widthFix" src="../../icons/gift.png"></image>GPA</navigator>
+  <image mode="widthFix" src="../../icons/version_1/gift.png"></image>GPA</navigator>
   <navigator url="/pages/cake/index">
-  <image mode="widthFix" src="../../icons/cake.png"></image>甜品/蛋糕</navigator>
+  <image mode="widthFix" src="../../icons/version_1/cake.png"></image>甜品/蛋糕</navigator>
   
 </view>
 <view class="index_cate">
   <navigator url="/pages/alcohol/index">
-  <image mode="widthFix" src="../../icons/wine.png"></image>深夜送酒</navigator>
+  <image mode="widthFix" src="../../icons/version_1/wine.png"></image>深夜送酒</navigator>
   <navigator url="/pages/seafood/index">
-  <image mode="widthFix" src="../../icons/seafood.png"></image>海鲜</navigator>
+  <image mode="widthFix" src="../../icons/version_1/seafood.png"></image>海鲜</navigator>
   <navigator url="/pages/move_house/index">
-  <image mode="widthFix" src="../../icons/move.png"></image>搬家寄存</navigator>
+  <image mode="widthFix" src="../../icons/version_1/move.png"></image>搬家寄存</navigator>
 </view>
 <view class="index_cate">
   <navigator url="/pages/clean/index">
-  <image mode="widthFix" src="../../icons/clean.png"></image>清洁</navigator>
+  <image mode="widthFix" src="../../icons/version_1/clean.png"></image>清洁</navigator>
   <navigator url="/pages/fruit/index">
-  <image mode="widthFix" src="../../icons/fruit.png"></image>水果</navigator>
+  <image mode="widthFix" src="../../icons/version_1/fruit.png"></image>水果</navigator>
   <navigator url="/pages/unlock/index">
-  <image mode="widthFix" src="../../icons/lock.png"></image>开锁</navigator>
+  <image mode="widthFix" src="../../icons/version_1/lock.png"></image>开锁</navigator>
 </view>
 <view class="index_cate">
   <navigator url="/pages/event/index">
-  <image mode="widthFix" src="../../icons/event.png"></image>Event置办</navigator>
+  <image mode="widthFix" src="../../icons/version_1/event.png"></image>Event置办</navigator>
   <navigator url="/pages/photography/index">
-  <image mode="widthFix" src="../../icons/photography.png"></image>摄影</navigator>
+  <image mode="widthFix" src="../../icons/version_1/photography.png"></image>摄影</navigator>
   <navigator url="/pages/flower/index">
-  <image mode="widthFix" src="../../icons/flower.png"></image>鲜花</navigator>
+  <image mode="widthFix" src="../../icons/version_1/flower.png"></image>鲜花</navigator>
 </view>
 <view class="index_cate">
   <navigator url="/pages/transport/index">
-  <image mode="widthFix" src="../../icons/photography.png"></image>转运</navigator>
+  <image mode="widthFix" src="../../icons/version_1/photography.png"></image>转运</navigator>
   <navigator url="/pages/daigou/index">
-  <image mode="widthFix" src="../../icons/photography.png"></image>代发代购</navigator>
+  <image mode="widthFix" src="../../icons/version_1/photography.png"></image>代发代购</navigator>
   <navigator url="/pages/nails/index">
-  <image mode="widthFix" src="../../icons/beauty.png"></image>美甲</navigator>
+  <image mode="widthFix" src="../../icons/version_1/beauty.png"></image>美甲</navigator>
 </view>
 
 

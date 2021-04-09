@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "Tab_one":"../../../components/tabbar_one/tabbar_one",
+    "Tab_two":"../../../components/order_tab/tabs"
+  },
+    "navigationBarTitleText": "我的订单",
+    "navigationBarBackgroundColor": "#1653c4",
+    "enablePullDownRefresh": true
+
+}

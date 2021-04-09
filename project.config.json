@@ -1,89 +1,95 @@
 {
-	"description": "项目配置文件",
-	"packOptions": {
-		"ignore": []
-	},
-	"setting": {
-		"urlCheck": true,
-		"es6": true,
-		"postcss": true,
-		"minified": true,
-		"newFeature": true,
-		"autoAudits": false,
-		"coverView": true,
-		"showShadowRootInWxmlPanel": true,
-		"scopeDataCheck": false
-	},
-	"compileType": "miniprogram",
-	"libVersion": "2.12.2",
-	"appid": "wxc1dbd72b3f8b10cc",
-	"projectname": "%E5%B8%83%E9%87%8C%E6%96%AF%E7%8F%AD%E7%82%B8%E6%B2%B9%E6%9D%A1",
-	"debugOptions": {
-		"hidedInDevtools": []
-	},
-	"isGameTourist": false,
-	"simulatorType": "wechat",
-	"simulatorPluginLibVersion": {},
-	"condition": {
-		"search": {
-			"current": -1,
-			"list": []
-		},
-		"conversation": {
-			"current": -1,
-			"list": []
-		},
-		"plugin": {
-			"current": -1,
-			"list": []
-		},
-		"game": {
-			"currentL": -1,
-			"list": []
-		},
-		"gamePlugin": {
-			"current": -1,
-			"list": []
-		},
-		"miniprogram": {
-			"current": -1,
-			"list": [
-				{
-					"id": -1,
-					"name": "外卖",
-					"pathName": "pages/takeaway/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "GPA",
-					"pathName": "pages/gpa/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "course",
-					"pathName": "pages/course/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": 3,
-					"name": "个人",
-					"pathName": "pages/user/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "接机",
-					"pathName": "pages/car/index",
-					"query": "",
-					"scene": null
-				}
-			]
-		}
-	}
+  "description": "项目配置文件",
+  "packOptions": {
+    "ignore": []
+  },
+  "setting": {
+    "urlCheck": true,
+    "es6": true,
+    "postcss": true,
+    "minified": true,
+    "newFeature": true,
+    "coverView": true,
+    "autoAudits": false,
+    "showShadowRootInWxmlPanel": true,
+    "scopeDataCheck": false,
+    "checkInvalidKey": true,
+    "checkSiteMap": true,
+    "uploadWithSourceMap": true,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    },
+    "useMultiFrameRuntime": true,
+    "bundle": false,
+    "useApiHook": true,
+    "useApiHostProcess": false
+  },
+  "compileType": "miniprogram",
+  "libVersion": "2.12.2",
+  "appid": "wxc1dbd72b3f8b10cc",
+  "projectname": "%E5%B8%83%E9%87%8C%E6%96%AF%E7%8F%AD%E7%82%B8%E6%B2%B9%E6%9D%A1",
+  "debugOptions": {
+    "hidedInDevtools": []
+  },
+  "isGameTourist": false,
+  "simulatorType": "wechat",
+  "simulatorPluginLibVersion": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "id": 0,
+          "name": "pages/index/index",
+          "pathName": "pages/index/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": 1,
+          "name": "tabbar_one",
+          "pathName": "components/order_tab/tabs",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "course",
+          "pathName": "pages/course/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": 3,
+          "name": "蛋糕",
+          "pathName": "pages/cake/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/car/order/order",
+          "pathName": "pages/car/order/order",
+          "query": "order_id=1",
+          "scene": null
+        },
+        {
+          "id": 5,
+          "name": "pages/car/index",
+          "pathName": "pages/car/index",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  }
 }

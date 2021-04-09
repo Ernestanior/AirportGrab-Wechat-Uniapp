@@ -1,0 +1,50 @@
+<!-- <view class="box_1">
+  <view class="type">接机</view>
+  <view class="status">待出发</view>
+</view> -->
+<view>
+  <view class="title">
+    <view class="type">{{new_order.type}}</view>
+    <view class="status">{{new_order.status}}</view>
+    <button style="width:150rpx;height:50rpx" class="delete">撤销订单</button>
+  </view>
+  <view class="head">
+    <image class="dot dot_one" src="../../../icons/version_2/jieji/dot_two.png"></image>
+    <view class="order_from">
+      {{new_order.add_from}}
+    </view>
+    <image class="dot dot_two" src="../../../icons/version_2/jieji/dot_one.png"></image>
+    <view class="order_to">
+      {{new_order.add_to}}
+    </view>
+    <view class="date_time">
+      <image class="icon_clock" src="../../../icons/version_2/jieji/clock.png"></image>
+      {{new_order.time}}
+    </view>
+  </view>
+
+  <view class="body">
+    <view class="left_body">
+      <view>订单编号</view>
+      <view>账号名称</view>
+      <view>手机号码</view>
+      <view>搭乘人数</view>
+      <view>行李件数</view>
+      <view>乘客留言</view>
+    </view>
+    <view class="right_body">
+      <view class="order_id">{{new_order.order_id}}</view>
+      <view class="name">{{username}}</view>
+      <view class="contact">{{new_order.contact}}</view>
+      <view class="people_num">{{new_order.people_number}}</view>
+      <view class="luggage">{{new_order.luggage}}</view>
+      <view class="add">{{new_order.add}}</view>
+    </view>
+  </view>
+  <view class="footer">
+    <button class="confirm">确认到达</button>
+    
+  </view>
+
+
+</view>

@@ -1,0 +1,44 @@
+
+<view class="box_1">
+  <view wx:if="{{userinfo.avatarUrl}}">
+      <view class="user_title">
+        <image class="user_icon" src="{{userinfo.avatarUrl}}"></image>
+        <view class="user_name">{{userinfo.nickName}}</view>
+        <view class="user_exit" bindtap="handleExit">退出登录</view>
+      </view>
+  </view>
+  <view wx:else class="user_button">
+    <button open-type="getUserInfo" bindgetuserinfo="handleGetUserInfo" class="user_btn" 
+    style="border:3rpx solid #fff;background-color:transparent;color:#fff;font-weight:400">登录</button>
+  </view>
+</view>
+<view class="selection">
+  <image class="client_img" src="../../../icons/version_2/jieji/client.png"></image>
+  <button style="width:90vw" class="client" open-type="contact">联系客服</button>
+  <image class="icon_youla" src="../../../icons/version_2/jieji/youla.png"></image>
+</view>
+<view class="selection">
+  <image class="order_img" src="../../../icons/version_2/jieji/order.png"></image>
+  <button style="width:90vw" class="client" bindtap="goto_order">我的订单</button>
+  <image class="icon_youla" src="../../../icons/version_2/jieji/youla.png"></image>
+</view>
+<Tab_one tid="3"></Tab_one>
+<!-- 
+<view class="tabbar">
+    <button bindtap="goto_index">
+      <image src="../../../icons/version_2/tabbar/home.png"></image>
+      <text>首页</text>
+    </button>
+    <button bindtap="goto_order">
+      <image src="../../../icons/version_2/tabbar/order.png"></image>
+      <text>订单</text>
+    </button>
+    <button open-type='contact'>
+      <image src="../../../icons/version_2/tabbar/contact.png"></image>
+      <text>客服</text>
+    </button>
+    <button bindtap="goto_mine" class="theme_blue">
+      <image src="../../../icons/version_2/tabbar/mine_fill.png"></image>
+      <text>我的</text>
+    </button>
+  </view> -->

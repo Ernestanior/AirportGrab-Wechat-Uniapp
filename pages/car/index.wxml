@@ -1,8 +1,119 @@
-<!--pages/car/index.wxml-->
 <view class="bg">
-<image src="https://s1.ax1x.com/2020/10/08/0w32kD.png" class="fly"></image>
-<image src="../../image/cloud.png" class="cloud_1"></image>
-<image src="../../image/cloud.png" class="cloud_2"></image>
-<image src="../../image/cloud.png" class="cloud_3"></image>
-<text>澳洲接机</text>
+  <view class="box_1">
+    <view class="nav">
+      <view bindtap="goto_jieji" class="function jieji">
+        <image src="../../icons/version_2/jieji/plane_2.png"></image>
+        <text>接机</text>
+      </view>
+      <view bindtap="goto_songji" class="function songji">
+        <image src="../../icons/version_2/jieji/plane_1.png"></image>
+        <text>送机</text>
+      </view>
+      <view class="function dache">
+        <image src="../../icons/version_2/jieji/car_1.png"></image>
+        <text>高端用车</text>
+      </view>
+      <view class="function songhuo">
+        <image src="../../icons/version_2/jieji/car_2.png"></image>
+        <text>搬家送货</text>
+      </view>
+    </view>
+  </view>
+
+
+  <view class="box_2">
+    <view class="box_title">
+      <view class="icon_1"></view>
+      服务优势
+      <navigator url="service/index" class="more">
+        更多
+        <view class="square"></view>
+      </navigator>
+    </view>
+
+    <view class="box_2_content">
+      <navigator url="service/index" class="content_nav">
+        <image src="../../icons/version_2/jieji/wechat_pay.png"></image>
+        <view class="nav_text">
+          <text class="nav_title">微信支付</text>
+          <text class="nav_span">微信转账，无需换汇</text>
+        </view>
+      </navigator>
+
+      <navigator url="service/index" class="content_nav">
+        <image src="../../icons/version_2/jieji/car_4.png"></image>
+        <view class="nav_text">
+          <text class="nav_title">华人司机</text>
+          <text class="nav_span">中国留学司机团队</text>
+        </view>
+      </navigator>
+
+      <navigator url="service/index" class="content_nav">
+        <image src="../../icons/version_2/jieji/package.png"></image>
+        <view class="nav_text">
+          <text class="nav_title">一价全包</text>
+          <text class="nav_span">无额外行李费用</text>
+        </view>
+      </navigator>
+
+      <navigator url="service/index" class="content_nav">
+        <image src="../../icons/version_2/jieji/safe.png"></image>
+        <view class="nav_text">
+          <text class="nav_title">服务保障</text>
+          <text class="nav_span">在线客服，无损取消</text>
+        </view>
+      </navigator>
+    </view>
+    
+  </view>
+  
+
+  <view class="box_3">
+    <view class="box_title">
+      <view class="icon_1"></view>
+      常见问题
+      <navigator url="ques/index" class="more">
+        更多
+        <view class="square"></view>
+      </navigator>
+    </view>
+    <navigator url="ques/index" class="box_3_search">
+      <image src="../../icons/version_2/jieji/search.png"></image>
+      <text>接送机如何收费？额外行李需不需要额外费用？</text>
+    </navigator>
+
+    <navigator url="ques/index" class="box_3_content">
+      <image src="../../icons/version_2/jieji/car_bg.png"></image>
+      <text>Q: 预订以后可以取消吗？</text>
+      <text>Q: 预订以后是否可以修改行程？</text>
+      <text>Q: 带多行李会不会额外收费？</text>
+      <text>...</text>
+    </navigator>
+
+    <view class="footer">
+      <image src="../../icons/version_2/jieji/tick.png"></image>
+      小布用车 -- 更方便，更优惠
+    </view>
+  </view>
+
 </view>
+<Tab_one tid="0"></Tab_one>
+<!-- <view class="tabbar">
+    <button class="theme_blue">
+      <image src="../../icons/version_2/tabbar/home_fill.png"></image>
+      <text>首页</text>
+    </button>
+    <button bindtap="goto_order">
+      <image src="../../icons/version_2/tabbar/order.png"></image>
+      <text>订单</text>
+    </button>
+    <button open-type='contact'>
+      <image src="../../icons/version_2/tabbar/contact.png"></image>
+      <text>客服</text>
+    </button>
+    <button bindtap="goto_mine">
+      <image src="../../icons/version_2/tabbar/mine.png"></image>
+      <text>我的</text>
+    </button>
+</view> -->
+

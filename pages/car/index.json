@@ -1,3 +1,9 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "Tab_one":"../../../components/tabbar_one/tabbar_one"
+  },
+  "navigationBarTitleText": "布里斯班用车",
+  "navigationBarBackgroundColor": "#1653c4",
+  "enablePullDownRefresh": false,
+  "backgroundTextStyle":"light"
 }

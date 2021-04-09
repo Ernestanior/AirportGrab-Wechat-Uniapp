@@ -1,13 +1,67 @@
 <!--index.wxml-->
 
-<view class="index_cate">
+<!-- <view class="index_cate">
   <navigator url="/pages/course/index">
-  <image mode="widthFix" src="../../icons/gift.png"></image>IES - GPA</navigator>
+  <image mode="widthFix" src="../../icons/version_1/gift.png"></image>IES - GPA</navigator>
 
   <navigator url="/pages/doing/index">
-  <image mode="widthFix" src="../../icons/lock.png"></image>待开发</navigator>
+  <image mode="widthFix" src="../../icons/version_1/lock.png"></image>待开发</navigator>
 
-  <!-- <navigator url="/pages/car/index">
-  <image mode="widthFix" src="../../icons/car.png"></image>接机</navigator> -->
-  <navigator></navigator>
+  <navigator url="/pages/car/index">
+  <image mode="widthFix" src="../../icons/version_1/car.png"></image>接机</navigator>
+</view> -->
+<view class="part_1">
+  <view class="per">
+    <navigator url="/pages/takeaway/index" class="circle ten">
+      <image class="icon_pic" src="../../icons/version_2/waimai.png"></image>
+    </navigator>
+    <view class="circle_text">外卖</view>
+  </view>
+
+    <view class="per">
+    <navigator url="/pages/move_house/index" class="circle three">
+      <image class="icon_pic" src="../../icons/version_2/banjia.png"></image>
+    </navigator>
+    <view class="circle_text">搬家/寄存</view>
+  </view>
+
+  <view class="per">
+    <navigator url="/pages/doing/index" class="circle three">
+      <image class="icon_pic" src="../../icons/version_2/zufang.png"></image>
+    </navigator>
+    <view class="circle_text">租房</view>
+  </view>
+
+  <view class="per">
+    <navigator url="/pages/car/index" class="circle ten">
+      <image class="icon_pic" src="../../icons/version_2/jieji.png"></image>
+    </navigator>
+    <view class="circle_text">接机/用车</view>
+  </view>
+
+  <view class="per">
+    <navigator url="/pages/course/index" class="circle eight">
+      <image class="icon_pic" src="../../icons/version_2/gpa.png"></image>
+    </navigator>
+    <view class="circle_text">GPA</view>
+  </view>
+
+  <view class="per">
+    <navigator url="/pages/event/index" class="circle eight">
+      <image class="icon_pic" src="../../icons/version_2/event.png"></image>
+    </navigator>
+    <view class="circle_text">活动</view>
+  </view>
+
 </view>
+<image mode="widthFix" class="go" src="../../icons/version_2/go.png"></image>
+<view class="br"></view>
+
+<view class="part_2">
+  <image class="i2" src="../../icons/i2.png"></image>
+  <view class="jiuye">就业指导</view>
+  <view class="more">更多</view>
+</view>
+
+
+

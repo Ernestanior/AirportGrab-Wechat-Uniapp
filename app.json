@@ -1,5 +1,6 @@
 {
-  "pages":[
+  "pages": [
+    "pages/car/index",
     "pages/index/index",
     "pages/login/index",
     "pages/doing/index",
@@ -11,7 +12,12 @@
     "pages/alcohol/index",
     "pages/seafood/index",
     "pages/move_house/index",
-    "pages/car/index",
+    
+    "pages/car/service/index",
+    "pages/car/ques/index",
+    "pages/car/jieji/index",
+    "pages/car/order/order",
+    "pages/car/mine/index",
     "pages/course/index",
     "pages/course/ma/index",
     "pages/course/ae/index",
@@ -33,13 +39,14 @@
     "pages/daigou/index",
     "pages/nails/index",
     "pages/gpa/index",
-    "pages/music/index"
+    "pages/music/index",
+    "pages/car/order_detail/index",
+    "pages/car/confirm_order/index"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#6B238E",
-    "navigationBarTitleText": "炸油条",
-    "navigationBarTextStyle":"white"
+    "navigationBarTextStyle": "white"
   },
   "tabBar": {
     "color": "#999",
@@ -59,7 +66,8 @@
         "text": "我的",
         "iconPath": "icons/account.png",
         "selectedIconPath": "icons/account-fill.png"
-      }]
+      }
+    ]
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"

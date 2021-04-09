@@ -1,0 +1,22 @@
+.box{
+  margin-top: 20rpx;
+  padding: 20rpx;
+}
+.title{
+  display: flex;
+  align-items: center;
+}
+.title image{
+  height: 40rpx;
+  width: 40rpx;
+  margin-right: 10rpx;
+}
+.title text{
+  font-weight: 500;
+  font-size: 30rpx;
+}
+.content{
+  margin-top: 10rpx;
+  font-size: 27rpx;
+  color: rgb(131, 130, 130);
+}

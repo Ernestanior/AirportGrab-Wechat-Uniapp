@@ -17,4 +17,111 @@ image{
   width: 100%;
   padding: 10rpx;
 }
+.part_1{
+  display: flex;
+  flex-wrap: wrap;
+}
+.per{
+  margin-top: 20rpx;
+  flex: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.circle{
+  height: 100rpx;
+  width: 100rpx;
+  background: linear-gradient(90deg, #30def1, #1dc5d8);
+  border-radius: 50%; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 .5rem 0.05rem  #acb0b3;
+}
+
+.one{
+      background: linear-gradient(90deg, #e77496, #da2c66);
+  }
+.two{
+      background: linear-gradient(90deg, #7ba3f1, #3f7df0);
+  }
+.three{
+      background: linear-gradient(90deg, #70df70, #15bb30);
+  }
+.four{
+      background: linear-gradient(90deg, #feb60b, #f14534);
+  }
+.five{
+      background: linear-gradient(90deg, #b6df7f, #70b813);
+  }
+.six{
+      background: linear-gradient(90deg, #7fdfb2, #12be77);
+  }
+.seven{
+      background: linear-gradient(90deg, #7fd9df, #059e91);
+  }
+.eight{
+      background: linear-gradient(90deg, #8e7fdf, #5943e4);
+  }
+.nine{
+      background: linear-gradient(90deg, #df7f7f, #d82b2b);
+  }
+.ten{
+      background: linear-gradient(90deg, #1fc9f3, #537bf3);
+  }
+.circle_text{
+  margin-top: 10rpx;
+  font-size: 25rpx;
+}
+.icon_pic{
+  height: 100%;
+  width: 100%;
+}
+.icon_pic_dangao{
+  height: 60rpx;
+  width: 100rpx;
+}
+.icon_pic_event{
+  height: 85rpx;
+  width: 100rpx;
+}
+.br{
+  margin-top: 30rpx;
+  height: 10rpx;
+  width: 100%;
+  background-color: #F2F4F7;
+}
+.go{
+  margin-top: 15rpx;
+  position: relative;
+  left: -10rpx;
+}
+.part_2{
+  position: relative;
+}
+.i2{
+  position: absolute;
+  top: 20rpx;
+  left: 15rpx;
+  height: 40rpx;
+  width: 40rpx;
+}
+.jiuye{
+  position: absolute;
+  top: 30rpx;
+  left: 75rpx;
+  font-size: 30rpx;
+}
+.more{
+  position: absolute;
+  top: 20rpx;
+  right: 40rpx;
+  font-size: 25rpx;
+}
+
+
+
+
+
 

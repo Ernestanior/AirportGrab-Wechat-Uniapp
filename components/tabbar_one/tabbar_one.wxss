@@ -1,0 +1,34 @@
+
+.tabbar{
+  position: fixed;
+  bottom: 0;
+  height: 164rpx;
+  background-color: #fff;
+  width: 100vw;
+  display: flex;
+  z-index: 9999;
+}
+
+.tabbar button{
+  /* flex: 20%; */
+  width: 25vw;
+  font-size: 25rpx;
+  display: flex;
+  color: #979797;
+  font-weight: 500;
+  background-color: #fff;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.tabbar .theme_blue{
+  color: #1653c4
+}
+.tabbar image{
+  height: 50rpx;
+  width: 50rpx;
+  margin-bottom: 10rpx;
+}
+.active{
+  color: #1653c4
+}
